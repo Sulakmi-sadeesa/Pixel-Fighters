@@ -132,14 +132,7 @@ No libraries. No frameworks. ~700 lines of pure JS.
   - Reducing opponent's HP to 0 (**K.O.**), or
   - Having more HP when the timer expires (**Time Up**)
 - Ties on time-up go to Player 1
-
-
----
-
-## 📜 License
-
-MIT — free to use, modify, and learn from.
-
+  
 ---
 
 ## 🙌 Credits
