@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<title>Pixel Fighters</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="wrap">
+    <canvas id="game" width="960" height="540"></canvas>
+
+    <div class="overlay" id="startScreen">
+      <h1>🥊 PIXEL FIGHTERS</h1>
+      <p>
+        <b>Player 1:</b> <span class="key">A</span> <span class="key">D</span> move ·
+        <span class="key">W</span> jump · <span class="key">S</span> crouch ·
+        <span class="key">F</span> light · <span class="key">G</span> heavy<br />
+        <b>Player 2:</b> <span class="key">←</span> <span class="key">→</span> move ·
+        <span class="key">↑</span> jump · <span class="key">↓</span> crouch ·
+        <span class="key">K</span> light · <span class="key">L</span> heavy<br /><br />
+        Hold <b>back</b> to block.
+      </p>
+      <div class="btn-row">
+        <button class="btn" id="pvpBtn" type="button">2 Players</button>
+        <button class="btn" id="cpuBtn" type="button">vs CPU</button>
+      </div>
+    </div>
+
+    <div class="overlay hidden" id="roundScreen">
+      <h1 id="roundText">ROUND 1</h1>
+      <h2 id="roundSub">FIGHT!</h2>
+    </div>
+
+    <div class="overlay hidden" id="endScreen">
+      <h1 id="endTitle">K.O.</h1>
+      <h2 id="endSub">Player 1 Wins!</h2>
+      <div class="btn-row">
+        <button class="btn" id="rematchBtn" type="button">Rematch</button>
+        <button class="btn alt" id="menuBtn" type="button">Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
