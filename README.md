@@ -1,7 +1,6 @@
 # Pixel-Fighters
-# Pixel Fighters
 
-A retro 2D fighting game built with HTML Canvas and vanilla JavaScript — no libraries, no build step, no dependencies. Two fighters, three rounds, one winner. Fight against a friend locally or take on a CPU opponent.
+A retro 2D fighting game built with HTML Canvas and vanilla JavaScript. Two fighters, three rounds, one winner. Fight against a friend locally or take on a CPU opponent.
 
 ![Game Preview](./preview.png)
 
@@ -61,8 +60,6 @@ A retro 2D fighting game built with HTML Canvas and vanilla JavaScript — no li
 3. Click **vs CPU** or **2 Players**
 4. Fight! Win 2 out of 3 rounds to take the match
 
-No build step. No dependencies. No install.
-
 ---
 
 ## 🛠 Tech Stack
@@ -73,8 +70,6 @@ No build step. No dependencies. No install.
 | Vanilla JS (ES6) | Game loop, physics, hit detection, AI |
 | Web Audio API | Synthesized sound effects |
 | CSS3 | Overlays, HUD, responsive layout |
-
-No libraries. No frameworks. ~700 lines of pure JS.
 
 ---
 
